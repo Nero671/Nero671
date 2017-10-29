@@ -1,0 +1,24 @@
+#include "stdafx.h"
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "RUSSIAN");
+	int a, b;
+	
+	cin >> a;
+
+	if (a == 1) {
+		cout << "Гусь доволен" << endl;
+	}
+	else if (a == 2) {
+		cout << "Гусь не доволен" << endl;
+	}
+	else {
+		cout << "Гусь едет в магазин Гуччи в Санкт-Петербурге" << endl;
+	}
+
+	system("pause");
+	return 0;
+}
