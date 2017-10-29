@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+	setlocale(LC_ALL, "Russian");
+	int a;
+	int b;
+	int c;
+	cout << "Введите а: " << endl;
+	cin >> a;
+	cout << "Введите b: " << endl;
+	cin >> b;
+	cout << "Результат умножения первого числа на второе: " << endl;
+	cin >> c;
+	if (c == a * b)
+		cout << c << endl;
+	else cout << "Loose! Right answer: " << a*b << endl;
+}
