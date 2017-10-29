@@ -1,0 +1,139 @@
+#include "stdafx.h"
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "RUSSIAN");
+	int a, b;
+	cin >> a;
+
+	switch (a)
+	{
+	case 1:
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот покормлен" << endl;
+		}
+		else
+		{
+			cout << "Кота не покормлен" << endl;
+		}
+		break;
+
+	case 2:
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот покормлен" << endl;
+		}
+		else
+		{
+			cout << "Кота не покормлен" << endl;
+		}
+		break;
+
+	case 3:
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот покормлен" << endl;
+		}
+		else
+		{
+			cout << "Кота не покормлен" << endl;
+		}
+		break;
+
+	case 4:
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот покормлен" << endl;
+		}
+		else
+		{
+			cout << "Кота не покормлен" << endl;
+		}
+		break;
+
+	case 5:
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот покормлен" << endl;
+		}
+		else
+		{
+			cout << "Кота не покормлен" << endl;
+		}
+		break;
+
+	case 6:
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот покормлен" << endl;
+		}
+		else
+		{
+			cout << "Кота не покормлен" << endl;
+		}
+		break;
+
+	case 7:
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот покормлен" << endl;
+		}
+		else
+		{
+			cout << "Кота не покормлен" << endl;
+		}
+		break;
+
+	case 8:
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот покормлен" << endl;
+		}
+		else
+		{
+			cout << "Кота не покормилен" << endl;
+		}
+		break;
+
+	case 9:
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот покормлен" << endl;
+		}
+		else
+		{
+			cout << "Кота не покормлен" << endl;
+		}
+		break;
+
+	case 10:
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот покормлен" << endl;
+		}
+		else
+		{
+			cout << "Кота не покормлен" << endl;
+		}
+		break;
+	default:
+		cout << "У нас всего 10 котиков" << endl;
+		break;
+	}
+
+	system("pause"); 
+    return 0;
+}
