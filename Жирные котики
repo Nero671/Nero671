@@ -6,11 +6,11 @@ int main()
 	setlocale(LC_ALL, "Russian");
 	srand(time(0)); 
 	int kot1 = rand() % 15;
-	cout << "kot1 = " << kot1 << "êã." << endl;
+	cout << "kot1 = " << kot1 << "ÐºÐ³." << endl;
 	int kot2 = rand() % 15;
-	cout << "kot2 = " << kot2 << "êã" << endl;
+	cout << "kot2 = " << kot2 << "ÐºÐ³." << endl;
 	if (kot1 > 5)
-		cout << "Warning! Îæèðåíèå!!" << endl;
+		cout << "Warning! ÐžÐ¶Ð¸Ñ€ÐµÐ½Ð¸Ðµ!!" << endl;
 	if (kot2 > 5) 
-		cout << "Warning! Îæèðåíèå!!" << endl;
+		cout << "Warning! ÐžÐ¶Ð¸Ñ€ÐµÐ½Ð¸Ðµ!!" << endl;
 }
